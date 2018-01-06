@@ -1,0 +1,73 @@
+    1  lsblk
+    2  sudo lsbk -o name
+    3  sudo lsblk -o
+    4  sudo lsblk -o Name,fstype,size
+    5  sudo lsblk -o Name,fstype,size,mountpoint,label
+    6  sudo apt-get install ubuntu-desktop
+    7  sudo reboot
+    8  sudo lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL
+    9  sudo apt-get purge --auto-remove qemu-kvm
+   10  sudo snap install conjure-up --classic
+   11  conjure-up
+   12  ps -aux | grep ssh
+   13  sudo apt-get install openssh-server -y
+   14  sudo nano /etc/ssh/sshd_config
+   15  sudo service ssh restart
+   16  ip addr show
+   17  sudo apt-get update
+   18  sudo apt-get install mate-core mate-desktop-environment mate-notification-daemon
+   19  sudo sed -i.bak '/fi/a #xrdp multiple users configuration \n mate-session \n' /etc/xrdp/startwm.sh
+   20  ifconfig
+   21  sudo apt-get remove --auto-remove mate-desktop
+   22  sudo apt-get install gparted
+   23  sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) share ~/host
+   24  sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) ubuntu  ~/host
+   25  cd host
+   26  ls
+   27  cd /home
+   28  cd shivgan
+   29  ls
+   30  la
+   31  ls
+   32  cd /media
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd home
+   37  ls
+   38  cd shivgan
+   39  ls
+   40  cd public
+   41  cd Public
+   42  ls
+   43  cd ..
+   44  cd /media
+   45  ls
+   46  sudo usermod -G vboxsf -a shivgan
+   47  cd /dev/sbm
+   48  cd /dev/sdb1
+   49  cd /dev
+   50  ls
+   51  cd sdb1
+   52  cd sbd1
+   53  ls
+   54  cd sbd1
+   55  cd sdb1
+   56  sudo fdisk -l
+   57  lsblk -o NAME,FSTYPE,UUID
+   58  sudo blkid
+   59  ls
+   60  cd hdd
+   61  cd sdb1
+   62  cd ..
+   63  ls
+   64  cd home
+   65  ls
+   66  cd shivgan
+   67  sudo mkdir /media/newhd
+   68  sudo mount /dev/sdb1 /media/newhd
+   69  df -H
+   70  $ cd /media/newhd
+   71  ls
+   72  df -H
+   73  history > history_for_print.txt
