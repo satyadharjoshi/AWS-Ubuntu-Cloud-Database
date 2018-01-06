@@ -1,0 +1,406 @@
+    1  sudo apt update && sudo apt upgrade
+    2  sudo sed -i 's/^PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
+    3  sudo /etc/init.d/ssh restart
+    4  sudo passwd ubuntu
+    5  sudo apt install xrdp xfce4 xfce4-goodies tightvncserver
+    6  echo xfce4-session> /home/ubuntu/.xsession
+    7  sudo cp /home/ubuntu/.xsession /etc/skel
+    8  sudo sed -i '0,/-1/s//ask-1/' /etc/xrdp/xrdp.ini
+    9  sudo service xrdp restart
+   10  sudo sed -i 's/^PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
+   11  sudo /etc/init.d/ssh restart
+   12  sudo passwd ubuntu
+   13  sudo apt install xrdp xfce4 xfce4-goodies tightvncserver
+   14  echo xfce4-session> /home/ubuntu/.xsession
+   15  sudo cp /home/ubuntu/.xsession /etc/skel
+   16  sudo sed -i '0,/-1/s//ask-1/' /etc/xrdp/xrdp.ini
+   17  sudo service xrdp restart
+   18  ls
+   19  lsblk
+   20  sudo file -s /dev/xvdf
+   21  sudo mkfs -t ext4 /dev/xvdf)
+   22  sudo mkfs -t ext4 /dev/xvdf
+   23  sudo mkdir /data
+   24  sudo mount /data
+   25  lsblk
+   26  xvdf
+   27  sudo file -s /dev/xvdf
+   28  sudo file -s /dev/xvda1
+   29  ls
+   30  cd /data
+   31  ls
+   32  mkdir NewDirectory
+   33  sudo chown -R ubuntu /data
+   34  l
+   35  ls
+   36  mkdir NewDirectory
+   37  apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+   38  E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+   39  sudo apt-get update
+   40  E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+   41  apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+   42  sudo apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+   43  vim .vnc/xstartup
+   44  cd /
+   45  ls
+   46  vim .vnc/xstartup
+   47  cd home
+   48  lz
+   49  ls
+   50  cd ubuntu
+   51  ls
+   52  cd ..
+   53  cd..
+   54  cd ..
+   55  ls
+   56  vim .vnc/xstartup
+   57  cd ubuntu
+   58  ls
+   59  cd home
+   60  ls
+   61  cd ubuntu
+   62  ls
+   63  vim .vnc/xstartup
+   64  vim ~/.vnc/xstartup
+   65  ls
+   66  vim /.vnc/xstartup
+   67  ls
+   68  vim ~/.vnc/xstartup
+   69  ls
+   70  vim ~/.vnc/xstartup
+   71  sudo apt-get install vnc4server
+   72  la
+   73  ls
+   74  vim ~/.vnc/xstartup
+   75  vncserver -kill :1
+   76  la
+   77  cd ..
+   78  va
+   79  la
+   80  cd ..
+   81  la
+   82  cd bin
+   83  la
+   84  cd ..
+   85  vncserver -kill :1
+   86  shutdown -r now
+   87  sudo shutdown -r now
+   88  ls
+   89  vim ~/.vnc/xstartup
+   90  ls -al
+   91  cd .vnc
+   92  la
+   93  vncserver -kill :1
+   94  You'll have to kill the Xtightvnc process manually
+   95  service vncserver restart
+   96  L:q
+   97  service vncserver restart
+   98  la
+   99  ;s
+  100  :q!
+  101  ls
+  102  la
+  103  vncserver :1
+  104  ls
+  105  vncserver -kill :1
+  106  vim ~/.vnc/xstartup
+  107  vncserver :1
+  108  vim ~/.vnc/xstartup
+  109  shutdown -r now
+  110  sudo shutdown -r now
+  111  vncserver
+  112  cd /data
+  113  ls
+  114  cd ..
+  115  ls
+  116  cd data
+  117  cd /data
+  118  ls
+  119  bash Anaconda-latest-Linux-x86_64.sh
+  120  wget https://repo.continuum.io/archive/Anaconda2-5.0.1-Linux-x86_64.sh
+  121  lsblk
+  122  df
+  123  source .bashrc
+  124  bash Anaconda2-5.0.1-Linux-x86_64.sh
+  125  wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
+  126  bash Anaconda3-5.0.1-Linux-x86_64.sh
+  127  cd ..
+  128  cd /dev/xvdf
+  129  sudo file -s /dev/xvdf
+  130  sudo mount /data
+  131  ls
+  132  wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
+  133  ls
+  134  sudo wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
+  135  bash Anaconda3-5.0.1-Linux-x86_64.sh
+  136  media/ubuntu/a0072c79-a2a6-41fe-a901-f51cc84580a7
+  137  /media/ubuntu/a0072c79-a2a6-41fe-a901-f51cc84580a7/ancaonda3
+  138  /media/ubuntu/a0072c79-a2a6-41fe-a901-f51cc84580a7/
+  139  bash Anaconda3-5.0.1-Linux-x86_64.sh
+  140  sudo bash Anaconda3-5.0.1-Linux-x86_64.sh
+  141  ls
+  142  sudo mkdir newhdd
+  143  sudo mount newhdd
+  144  sudo cp /etc/fstab /etc/fstab.orig
+  145  ssh -i "Ubuntu111117.pem" ubuntu@ec2-52-33-202-91.us-west-2.compute.amazonaws.com
+  146  sudo aptitude install tightvncserver
+  147  sudo install tightvncserver
+  148  ipython
+  149  source .bashrc
+  150  sudo apt-get install tightvncserver
+  151  vncserver
+  152  lsblk
+  153  ipython
+  154  ipython
+  155  vncserver
+  156  ipython
+  157  source .bashrc
+  158  ipython
+  159  cd source .bashrc
+  160  source .bashrc
+  161  python
+  162  ipython
+  163  sudo apt install ipython
+  164  ipython
+  165  jupyter notebook --generate-config 
+  166  mkdir certs
+  167  cd certs
+  168  sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
+  169  c = get_config()
+  170  c.IPKernelApp.pylab = 'inline' 
+  171  c.NotebookApp.certfile = u'/home/ubuntu/certs/mycert.pem' 
+  172  c.NotebookApp.ip = '*' 
+  173  c.NotebookApp.open_browser = False 
+  174  c = get_config()
+  175  c = get_config
+  176  c = get_config()
+  177  nano jupyter_notebook_config.py
+  178  jupyter notebook --no-browser --port=8888
+  179  ls
+  180  cd..
+  181  cd ..
+  182  ls
+  183  jupyter notebook --no-browser --port=8888
+  184  shutdown -r now
+  185  sudo shutdown -r now
+  186  /mnt/hdd10gb/
+  187  jupyter
+  188  notebok
+  189  jupyter
+  190  vncserver
+  191  cd /mnt/hdd10gb
+  192  la
+  193  ls
+  194  bash Anaconda3-5.0.1-Linux-x86_64.sh
+  195  ipython
+  196  jupyter notebook --generate-config 
+  197  mkdir certs
+  198  cd certs
+  199  sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
+  200  nano jupyter_notebook_config.py
+  201  sudo nano jupyter_notebook_config.py
+  202  nohup jupyter notebook
+  203  sudo nohup jupyter notebook
+  204  nohup jupyter notebook
+  205  jupyter notebook --no-browser --port=8888
+  206  source .bashrc
+  207  ls
+  208  cd ancaonda
+  209  ls
+  210  cd ancaonda
+  211  ls
+  212  cd anaconda
+  213  source .bashrc
+  214  la
+  215  ipython
+  216  nohup jupyter notebook
+  217  jupyter notebook --no-browser --port=8888
+  218  echo $HOME
+  219  export PATH="/mnt/hdd10gb/anaconda/bin:$PATH"
+  220  jupyter notebook --no-browser --port=8888
+  221  cd bin
+  222  jupyter notebook --no-browser --port=8888
+  223  ls
+  224  jupyter notebook --no-browser --port=8888
+  225  cd jupyter
+  226  jupyter
+  227  export PATH="/mnt/hdd10gb/anaconda/bin/python:$PATH"
+  228  jupyter
+  229  jupyter notebook --no-browser --port=8888
+  230  cd python
+  231  jupyter notebook --no-browser --port=8888
+  232  python jupyter notebook --no-browser --port=8888
+  233  jupyter notebook --no-browser --port=8888
+  234  python jupyter notebook --no-browser --port=8888
+  235  cd python
+  236  python jupyter notebook --no-browser --port=8888
+  237  jupyter notebook --no-browser --port=8888
+  238  export PATH="/mnt/hdd10gb/anaconda/bin/python:$PATH"
+  239  jupyter notebook --no-browser --port=8888
+  240  export PATH="/mnt/hdd10gb/anaconda/bin:$PATH"
+  241  jupyter notebook --no-browser --port=8888
+  242  export PATH="/mnt/hdd10gb/anaconda/bin:$PATH"
+  243  jupyter notebook --generate-config 
+  244  mkdir certs
+  245  cd certs
+  246  sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
+  247  nano jupyter_notebook_config.py
+  248  sudo nano jupyter_notebook_config.py
+  249  nohup jupyter notebook
+  250  python nohup jupyter notebook
+  251  jupyter notebook --no-browser --port=8888
+  252  python jupyter notebook --no-browser --port=8888
+  253  ls
+  254  cd..
+  255  cd ..
+  256  python jupyter notebook --no-browser --port=8888
+  257  pq5h
+  258  gedit ~/.profile
+  259  sudo \
+  260  sudo export PATH="/mnt/hdd10gb/anaconda/bin:$PATH"
+  261  export PATH="/mnt/hdd10gb/anaconda/bin:$PATH"
+  262  sudo export PATH="/mnt/hdd10gb/anaconda/bin/python:$PATH"
+  263  export PATH="/mnt/hdd10gb/anaconda/bin:$PATH
+  264  "
+  265  python nohup jupyter notebook
+  266  export PATH="/mnt/hdd10gb/anaconda/bin/python:$PATH"
+  267  printenv
+  268  python nohup jupyter notebook
+  269  nohup jupyter notebook
+  270  ls
+  271  bash Anaconda3-5.0.1-Linux-x86_64.sh
+  272  vncserver
+  273  sudo chown -R ubuntu:ubuntu /mnt/hdd10gb
+  274  bash Anaconda3-5.0.1-Linux-x86_64.sh
+  275  cd mny/hdd10gb
+  276  cd mnt/hdd10gb
+  277  cd mnt
+  278  ls
+  279  cd ..
+  280  cd..
+  281  cd ..
+  282  ls
+  283  cd home
+  284  ls
+  285  cd ubuntu
+  286  ls
+  287  cd /mnt/hdd10fb
+  288  cd /mnt/hdd10gb
+  289  bash Anaconda3-5.0.1-Linux-x86_64.sh
+  290  bash Anaconda3-5.0.1-Linux-x86_64.sh -u
+  291  source .bashrc
+  292  jupyter notebook --no-browser --port=8888
+  293  source .bashrc
+  294  cd..
+  295  cd ..
+  296  ls
+  297  cd  home/ubuntu
+  298  ls
+  299  source .bashrc
+  300  jupyter notebook --no-browser --port=8888
+  301  ipython
+  302  jupyter notebook --generate-config 
+  303  mkdir certs
+  304  cd certs
+  305  sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
+  306  nano jupyter_notebook_config.py
+  307  nohup jupyter notebook
+  308  la
+  309  cd ..
+  310  ls
+  311  cd /
+  312  ls
+  313  cd mnt
+  314  ls
+  315  cd hdd10gb
+  316  ls
+  317  nohup jupyter notebook
+  318  cd  home/ubuntu
+  319  ls
+  320  cd /mnt/hdd10fb
+  321  cd /mnt/hdd10fb/
+  322  cd /
+  323  cd /mnt/hdd10fb/
+  324  la
+  325  cd ..
+  326  lA
+  327  LA
+  328  la
+  329  ipython 
+  330  jupyter notebook --generate-config 
+  331  nano jupyter_notebook_config.py
+  332  sudo nano jupyter_notebook_config.py
+  333  nohup jupyter notebook
+  334  sudo nano jupyter_notebook_config.py
+  335  nohup jupyter notebook
+  336  ls
+  337  cd home
+  338  cd ubuntu
+  339  ls
+  340  nohup jupyter notebook
+  341  sudo nohup jupyter notebook
+  342  jupyter notebook
+  343  nohup jupyter notebook
+  344  jupyter notebook list
+  345  vncserver
+  346  kill vncserver
+  347  kill vncserver:1
+  348  kill vncserver[1]
+  349  jupyter notebook --no-browser --port=8888
+  350  sudo lsblk
+  351  cd /mnt/hdd10gb
+  352  ls
+  353  vncserver
+  354  nano ~/.vnc/xstartup
+  355  jupyter notebook --no-browser --port=8888
+  356  nohup jupyter notebook
+  357  jupyter notebook --no-browser --port=8888
+  358  cd /mnt/hdd10gbDDDDDDDDDDDDD
+  359  jupyter notebook --generate-config
+  360  nano jupyter_notebook_config.py
+  361  nano /home/ubuntu/.jupyter/jupyter_notebook_config.py
+  362  jupyter notebook --no-browser --port=8888
+  363  ipython
+  364  nano jupyter_notebook_config.py
+  365  jupyter notebook --generate-config 
+  366  ls
+  367  cd cert
+  368  cd certs
+  369  sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout Ubuntu111117.pem -out Ubuntu111117.pem
+  370  cd ~/.jupyter/
+  371  nano jupyter_notebook_config.py
+  372  nohup jupyter notebook
+  373  nano jupyter_notebook_config.py
+  374  cd ~/.jupyter/
+  375  ls
+  376  nano jupyter_notebook_config.py
+  377  jupyter notebook --no-browser --port=8888
+  378  nohup jupyter notebook
+  379  pip install hashlib
+  380  conda install hashlib
+  381  pip3 install hashlib
+  382  conda install hashlib
+  383  pip install hashlib
+  384  nohup jupyter notebook
+  385  cd /mnt/hdd10fb/
+  386  cd /mnt
+  387  ls
+  388  cd hdd10gb
+  389  nohup jupyter notebook
+  390  conda install QuantLiv
+  391  conda install QuantLib
+  392  pip install QuantLib
+  393  pip install QuantLib-Python
+  394  conda install QuantLib-Python
+  395  pip install QuantLib-Python
+  396  python
+  397  pip install QuantLib-Python
+  398  pip install QuantLib-Python
+  399  sudo pip install QuantLib-Python
+  400  sudo
+  401  sudo pip install QuantLib-Python
+  402  sudo conda install QuantLib-Python
+  403  sudo apt-get install QuantLib-Python
+  404  conda
+  405  conda install QuantLib-Python
+  406  history > commandsubuntu.txt
